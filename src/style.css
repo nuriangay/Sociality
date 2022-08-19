@@ -1,0 +1,1015 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 1538px;
+  color: #959595;
+  font-family: Raleway, sans-serif;
+  font-size: 0.875rem; /* 14px / 16px = 0.875rem */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; /* 1538px / 1538px = 100% */
+}
+.background {
+  position: relative;
+  background: #f5f7f8 center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.l-constrained {
+  margin: 0 auto;
+  position: relative;
+  width: 1538px;
+}
+.col-7 {
+  float: left;
+  margin: 0 45px 0 0;
+  position: relative;
+  width: 274px;
+}
+.backgroundcolor {
+  height: 51px;
+  margin: 0 auto;
+  width: 274px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: #31363b;
+  opacity:0.7;
+}
+.sociality{
+  margin-left: 50px;
+  font-weight: bold;
+}
+.row-6 {
+  margin: 15px auto 0;
+  position: relative;
+  width: 240px;
+}
+.mask5 {
+  float: left;
+  margin: 194px 0 0;
+  width: 37px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.navigation-menu {
+  float: right;
+  position: absolute;
+  width: 220px;
+  margin-left: 37px;
+  background-color: #31363b;
+  height: 1490px;
+  margin-top: -15px;
+}
+.shape-1 {
+  display: flex;
+  margin: 5px 10px 5px 4px;
+  position:absolute;
+  color: #f55661;
+  font-size:17px;
+}
+.line{
+  display: flex;
+  margin: 5px 10px 5px 4px;
+  margin-top: 30px;
+  position:absolute;
+  color: #f55661;
+  font-size:17px;
+
+}
+.page2 {
+  margin: 45px 0 0;
+  position: relative;
+}
+.icon2 {
+  float: left;
+  padding: 4px 0 9px;
+  position: relative;
+  width: 22px;
+  background: url(images/shape2_2.png) no-repeat;
+}
+.shape1 {
+  display: block;
+  margin: 0 auto;
+}
+.summary {
+  float: left;
+  margin: 2px 0 0 6px;
+  color: #fffefe;
+  font-weight: 500;
+  background: url(images/seemore_2.png) no-repeat;
+}
+.notifications{
+  float: left;
+  margin:4px 0 0 28px;
+  color: #fffefe;
+  font-weight: 500;
+  background: url(images/seemore_2.png) no-repeat;
+
+}
+.seemore {
+  float: right;
+  margin: -5px 5px 3px 1px;
+  color: black;
+}
+.seemore0 {
+  float: right;
+  margin: 3px 5px 3px 1px;
+  font-size: 15px;
+  color:#3ac183
+}
+
+.page3 {
+  margin: 31px 0 0 1px;
+  position: relative;
+  width: 103px;
+}
+.row-2 {
+  margin: 0 auto;
+  position: relative;
+  width: 99px;
+}
+.icon3 {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.publish {
+  margin: 2px 0 0;
+  opacity: 0.8;
+  color: #fffefe;
+  font-weight: bold;
+
+}
+.row-5 {
+  margin: 41px 0 0 9px;
+  position: relative;
+}
+.bulleta {
+  float: left;
+  margin: 4px 15px 0 0;
+  font-size: 6px;
+  
+
+  
+}
+.bulleta2 {
+  float: left;
+  margin: 30px 15px 0 9px;
+  font-size: 6px;
+  color: #f55661;
+  
+
+  
+}
+.compose {
+  opacity: 0.9;
+  color: #ffffff;
+  font-weight: 500;
+}
+.feed {
+  margin: 26px 0 0 33px;
+  opacity: 0.9;
+  position: absolute;
+  color: #f55661;
+  font-weight: bold;
+  text-align: center;
+}
+.page4 {
+  margin: 52px 0 0;
+  position: relative;
+}
+.icon4 {
+  float: left;
+  margin: -14px 133px 5px 5px;
+  font-size: 17px;
+  color: #f55661;
+  position: absolute;
+  
+}
+.icon7 {
+  float: left;
+  margin: -14px 133px 5px 5px;
+  font-size: 17px;
+  color: #f55661;
+  position: absolute;
+  
+}
+.seemore-2 {
+  float: right;
+  margin: -18px 180px 0;
+  position: absolute;
+  color: black;
+}
+.page5 {
+  margin: 27px 0 0;
+  position: relative;
+}
+.icon5 {
+  float: left;
+  position: relative;
+  width: 21px;
+  z-index: 0;
+}
+.shape1-2 {
+  display: block;
+  position: relative;
+  z-index: 192;
+}
+.shape2 {
+  display: block;
+  margin: -8px 0 0;
+  position: relative;
+  z-index: 191;
+}
+.seemore-3 {
+  float: right;
+  margin: -15px 180px 0;
+  position: absolute;
+  color: black;
+}
+.page6 {
+  margin: 33px 32px 0;
+  position: relative;
+  color: #fffefe;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.col-9 {
+  float: left;
+  margin: 30px 0 0;
+  position: relative;
+  width: 1169px;
+}
+.row-10 {
+  position: relative;
+  width: 1168px;
+}
+.col-10 {
+  float: left;
+  margin: 8px 0 0;
+  position: relative;
+  width: 768px;
+}
+.descriptions {
+  position: relative;
+}
+.color1 {
+  float: left;
+  height: 10px;
+  margin: 3px 0 0;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #acacac;
+}
+.published {
+  float: left;
+  margin: 0 0 0 9px;
+  color: #444444;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.scheduled {
+  float: left;
+  margin: 0 0 0 12px;
+  color: #444444;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.approval {
+  float: left;
+  margin: 0 0 0 12px;
+  color: #444444;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.card-icons{
+  display: flex;
+  margin-top: -20px;
+  margin-left: 15px;
+  position: absolute;
+}
+.card-icons2{
+  display: flex;
+  margin-top: -25px;
+  margin-left: 15px;
+  position: absolute;
+}
+.card-icons3{
+  display: flex;
+  margin-top: -25px;
+  margin-left: 25px;
+  position: absolute;
+}
+.color2 {
+  float: left;
+  height: 10px;
+  margin: 3px 0 0 20px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #3ac183;
+}
+.color3 {
+  float: left;
+  height: 10px;
+  margin: 3px 0 0 30px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #f7bf38;
+}
+.color4 {
+  float: left;
+  height: 10px;
+  margin: 2px 0 0 40px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fb6450;
+}
+.color5 {
+  float: left;
+  height: 10px;
+  margin: 2px 0 0 50px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #67b1f2;
+}
+.notes {
+  float: left;
+  margin: 0 0 0 9px;
+  color: #444444;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.row-3 {
+  margin: 65px 0 0;
+  position: relative;
+  width: 768px;
+}
+.card1 {
+  float: left;
+  height: 426px;
+  padding: 27px 21px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_6.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+
+.cancel {
+  display: flex;
+  left: 232.5px;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+  position: relative;
+
+}
+.icons-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+
+
+}
+
+.icon-text{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin: -7px;
+  margin-left: 25px;
+ 
+
+
+  
+}
+.icon-text2{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin: -7px;
+  margin-left: 35px;
+ 
+
+
+  
+}
+.icon-text3{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 35px;
+ 
+
+
+  
+}
+
+.trash{
+  display: flex;
+  left: 252.5px;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+.comment{
+  display: flex;
+  left: 272.5px;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+.text {
+  margin: 19px 1px 0 39px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.photomask {
+  display: block;
+  height: 239px;
+  left: 19px;
+  margin: 14px auto 0;
+  position: relative;
+  width: 283px;
+  border: 1px solid #eaf0ef; /*stroke*/
+  background: url(images/photomask_5.jpg) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.reactions {
+  margin: 19px 0 0 40px;
+  position: relative;
+}
+.likes {
+  float: left;
+
+}
+.icon{
+  margin-left: 30px;
+  
+}
+.icon-2{
+  margin-left:20px;
+}
+
+.text-2 {
+  float: left;
+  margin: 1px 0 0 62px;
+  margin-left:20px ;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.text-3 {
+  float: left;
+  margin: 1px 0 0 35px;
+  margin-left: 20px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.card-error2 {
+  float: right;
+  height: 426px;
+  padding: 29px 10px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_3.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.card-error {
+  float: left;
+  height: 426px;
+  padding: 27px 21px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_2.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.approve {
+  display: block;
+  left: 81px;
+  margin: 0 auto;
+  position: relative;
+}
+.text-4 {
+  margin: 20px 3px 0 50px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.row-4 {
+  margin: 14px 0 0;
+  position: relative;
+}
+.twitter-logo {
+  float: left;
+  margin: 85px 31px 0 0;
+}
+.twitter-logo2{
+  float: left;
+  margin: 140px 31px 0 0;
+  font-size: 25px;
+  color: white;
+
+}
+.face-icon{
+  
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  margin-left: -6px;
+  margin-top: -147px;
+
+  
+}
+
+.face-icon2{
+  
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 100px;
+
+  
+}
+
+.photomask-2 {
+  float: left;
+  height: 239px;
+  width: 283px;
+  border: 1px solid #eaf0ef; /*stroke*/
+  background: url(images/photomask_4.jpg) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.reactions-2 {
+  margin: 19px 0 0 51px;
+  position: relative;
+}
+.heart {
+  float: left;
+}
+.text-5 {
+  float: left;
+  margin: 1px 0 0 60px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.text-6 {
+  float: left;
+  margin: 1px 0 0 35px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.text-7 {
+  margin: 38px 0 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.375rem; /* 22px / 16px = 1.375rem */
+  font-stretch: condensed;
+}
+.mask {
+  float: right;
+  height: 63px;
+  width: 63px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: url(images/mask.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.row {
+  margin: 14px 0 0;
+  position: relative;
+}
+.row > * {
+  float: left;
+  margin: 0 31px 0 0;
+}
+.row > *:last-child {
+  margin-right: 0 !important;
+}
+.card3 {
+  height: 446px;
+  padding: 63px 21px 27px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_4.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-8 {
+  margin: 0 0 0 39px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.photomask-3 {
+  height: 239px;
+  margin: 14px 0 0 40px;
+  position: relative;
+  width: 283px;
+  border: 1px solid #eaf0ef; /*stroke*/
+  background: url(images/photomask.jpg) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.reactions-3 {
+  margin: 21px 0 0 40px;
+  position: relative;
+}
+.likes-2 {
+  float: left;
+  margin: 0 134px 0 0;
+}
+.text-9 {
+  float: left;
+  margin: 1px 0 0;
+  width: 15px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.card4 {
+  height: 446px;
+  padding: 63px 21px 26px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_6.png) no-repeat -1px -1px;
+  background-size: cover;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.face-icon3{
+  position:absolute;
+  margin-left: -7px;
+  margin-top: 140px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+.text-10 {
+  margin: 0 0 0 39px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.photomask-4 {
+  height: 239px;
+  margin: 14px 0 0 39px;
+  position: relative;
+  width: 283px;
+  border: 1px solid #eaf0ef; /*stroke*/
+  background: url(images/photomask.jpg) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.reactions-4 {
+  margin: 22px 0 0 39px;
+  position: relative;
+}
+.heart-copy {
+  float: left;
+  margin: 0 133px 0 0;
+}
+.text-11 {
+  float: left;
+  width: 15px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.card5 {
+  height: 446px;
+  padding: 63px 13px 27px;
+  position: relative;
+  width: 369px;
+  border: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url(images/card_5.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  background-size: cover;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.photo {
+  margin: 0 0 0 47px;
+  position: relative;
+  width: 294px;
+}
+.text-12 {
+  font-weight: bold;
+  line-height: 20px;
+}
+.photomask-5 {
+  height: 239px;
+  margin: 14px auto 0;
+  width: 283px;
+  border: 1px solid #eaf0ef; /*stroke*/
+  background: url(images/photomask.jpg) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.reactions-5 {
+  margin: 20px 47px 0;
+  position: relative;
+}
+.likes-3 {
+  float: left;
+  margin: 1px 0 0;
+}
+.shares {
+  float: left;
+  margin: 0 0 0 110px;
+}
+.views {
+  float: left;
+  margin: 3px 0 0 35px;
+}
+.text-13 {
+  margin: 42px 0 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.375rem; /* 22px / 16px = 1.375rem */
+  font-stretch: condensed;
+}
+.card6 {
+  height: 398px;
+  margin: 14px 0 0;
+  padding: 65px 11px 0;
+  position: relative;
+  width: 369px;
+  border-top: 1px solid #e5e6ee; /*stroke*/
+  border-right: 1px solid #e5e6ee; /*stroke*/
+  border-left: 1px solid #e5e6ee; /*stroke*/
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  background: url(images/card.png) no-repeat -1px -1px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-14 {
+  margin: 0 0 0 49px;
+  font-size: 0.896168rem; /* 14.34px / 16px = 0.89625rem */
+  font-weight: bold;
+  line-height: 20px;
+}
+.row-7 {
+  margin: 12px 0 0 1px;
+  min-height: 240px;
+  padding: 1px 0 0;
+  position: relative;
+  width: 334px;
+  background: url(images/photo_5.png) no-repeat 46px 0;
+}
+.facebook-logo {
+  float: left;
+  margin: 75px 0 0;
+}
+.photomask-6 {
+  float: right;
+  margin: 0 2px 0 0;
+}
+.row-8 {
+  margin: 20px 50px 0;
+  position: relative;
+}
+.likes-4 {
+  float: left;
+  margin: 1px 0 0;
+}
+.text-15 {
+  float: left;
+  margin: 4px 0 0 9px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.text-16 {
+  float: left;
+  margin: 4px 0 0 40px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.shares-2 {
+  float: left;
+  margin: 0 0 0 13px;
+}
+.text-17 {
+  float: left;
+  margin: 4px 0 0 8px;
+  color: #444444;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-weight: 500;
+}
+.views-2 {
+  float: left;
+  margin: 3px 0 0 14px;
+}
+.color71bcf0 {
+  color: #71bcf0;
+}
